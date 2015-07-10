@@ -1,0 +1,8 @@
+{
+	"name": "spotifyapp",
+	"version": "0.1.0",
+	"dependencies": {
+		"express": "latest",
+		"angular-route": "*"
+	}
+}

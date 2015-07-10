@@ -1,0 +1,15 @@
+[
+
+	{
+	 	"code": 32,
+	 	"icon": "img/32.png",
+	 	"text": "Sunny"
+ 	},
+
+ 	{
+	 	"code": 26,
+	 	"icon": "img/26.png",
+	 	"text": "Cloudy"
+ 	}
+
+]

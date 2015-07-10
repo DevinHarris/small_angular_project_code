@@ -1,0 +1,14 @@
+{
+  "name": "WeatherApp",
+  "version": "1.0.0",
+  "description": "Fetches the weather for various cities",
+  "keywords": [
+    "weather",
+    "angularjs"
+  ],
+  "author": "Devonta Harris",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}

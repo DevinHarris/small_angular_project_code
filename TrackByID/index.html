@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="notesApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Track By ID</title>
+</head>
+<body ng-controller="MainCtrl as ctrl">
+
+	<button ng-click="ctrl.changeNotes()">Change these notes.</button>
+	<br>
+
+	<div ng-repeat="note in ctrl.notes1">
+		{{note.$$hashKey}}
+		<span class="label">{{note.label}}</span>
+		<span class="author" ng-bind="note.done"></span>
+	</div>
+
+	<br />
+	
+	<div ng-repeat="note in ctrl.notes2 track by note.id">
+		{{note.$$hashKey}}
+		<span class="label">{{note.label}}</span>
+		<span class="author" ng-bind="note.done"></span>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+	<script src="app.js"></script>	
+</body>
+</html>

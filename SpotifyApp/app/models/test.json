@@ -1,0 +1,25 @@
+[
+	{
+		"name": "Roman Reigns",
+		"champion": false,
+		"known_for": "2015 Royal Rumble Winner"
+	},
+
+	{
+		"name": "Seth Rollins",
+		"champion": false,
+		"known_for": "Mr. Money In The Bank"
+	}, 
+
+	{
+		"name": "Dean Ambrose",
+		"champion": false,
+		"known_for": "US Champion"
+	},
+
+	{
+		"name": "Dolph Ziggler",
+		"champion": false,
+		"known_for": "World Champion"
+	}
+]

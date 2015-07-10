@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="notesApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Repeat</title>
+</head>
+<body ng-controller="MainCtrl as ctrl">
+
+	<div ng-repeat="note in ctrl.notes">
+		<span class="label" ng-cloak>{{note.label}}</span>
+		<span class="status" ng-bind="note.done"></span>
+	</div>
+
+	<div ng-repeat="winner in ctrl.winners">
+		<span class="winners">{{ctrl.winners}}</span>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
